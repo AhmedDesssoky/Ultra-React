@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.anchor {
+    display: block;
+    color: #222;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+
+}
+
+.anchor:hover {
+    color: #eb5424;
+}
+
+.input:checked~.ul_list {
+    display: block;
+}
+ .input:checked~.label {
+    background: url('../public/images/Navbar/close.png') no-repeat;
+    background-size: cover;
+}
